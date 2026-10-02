@@ -126,6 +126,35 @@ User enters patient information
             ↓
      Prediction displayed
 ```
+---
+
+🖥️ Application Screenshots
+
+### 1. Prediction Interface
+
+![Prediction Interface](images/home.png)
+
+The frontend allows users to enter the required patient information.
+
+### 2. Prediction Result
+
+![Prediction Result](images/prediction-result.png)
+
+The frontend displays the prediction returned by the FastAPI backend.
+
+### 3. FastAPI Swagger Documentation
+
+![FastAPI Swagger](images/swagger-api.png)
+
+The FastAPI Swagger interface provides interactive API documentation and shows the available endpoints.
+
+### 4. API Prediction Response
+
+![API Response](images/swagger-api-response.png)
+
+The /predict endpoint returns the machine learning prediction after receiving the patient data.
+
+---
 
 ### Frontend
 
@@ -229,7 +258,7 @@ This ensures that the same preprocessing used during model training is applied w
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```text
 heart-attack-prediction/
@@ -246,10 +275,14 @@ heart-attack-prediction/
 │   ├── style.css
 │   └── script.js
 │
+├── images/
+│   ├── home.png
+│   ├── prediction-result.png
+│   ├── swagger-api.png
+│   └── swagger-api-response.png
+│
 ├── notebooks/
 │   └── heart_attack_prediction.ipynb
-│
-├── images/
 │
 ├── model_comparison_results.csv
 ├── requirements.txt
@@ -321,7 +354,7 @@ The frontend communicates with the FastAPI backend to generate predictions.
 
 ---
 
-## 🔌 API Endpoint
+##  API Endpoint
 
 ### `GET /`
 
