@@ -89,7 +89,7 @@ heart-attack-prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```
 ## ⚠️ Disclaimer
 
 This project is intended for educational and experimental purposes only. It is not a medical diagnostic system and should not be used for clinical decision-making.
