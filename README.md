@@ -128,7 +128,7 @@ User enters patient information
 ```
 ---
 
-🖥️ Application Screenshots
+## 🖥️ Application Screenshots
 
 ### 1. Prediction Interface
 
